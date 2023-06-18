@@ -2,7 +2,7 @@
 
 Here's a general approach for cancer diagnosis in histopathological images using a CNN:
 
-Dataset collection and preprocessing: Gather a large dataset of histopathological images, including both cancerous and non-cancerous samples. Each image should be labeled with the corresponding diagnosis (cancerous or non-cancerous). Preprocess the images by resizing them to a consistent size and normalizing the pixel values.
+Dataset collection of our own Dataset and preprocessing: Gather a large dataset of histopathological images, including both cancerous and non-cancerous samples. Each image should be labeled with the corresponding diagnosis (cancerous or non-cancerous). Preprocess the images by resizing them to a consistent size and normalizing the pixel values.
 
 Splitting the dataset: Divide the dataset into training, validation, and testing sets. The training set is used to train the CNN, the validation set is used to tune the hyperparameters and monitor the model's performance, and the testing set is used to evaluate the final model's performance.
 
